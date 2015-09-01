@@ -1,0 +1,1604 @@
+[
+    [
+        {
+            "t": "实用分类",
+            "im": 2,
+            "d": [
+                {
+                    "t": "快手菜",
+                    "dt": 10,
+                    "sql": "where (make_time_num = 1 or make_time_num = 2 ) and step <=5 and bclassname like '菜谱大全'"
+                },
+                {
+                    "t": "下饭菜",
+                    "dt": 10,
+                    "sql": "where  gongyi like '烧' or gongyi like '炒'"
+                },
+                {
+                    "t": "应季时蔬",
+                    "dt": 10,
+                    "sql": "where  title like '%土豆%' or title like '%黄瓜%'"
+                },
+                {
+                    "t": "素食",
+                    "dt": 10,
+                    "sql": "where  classname like '素菜'"
+                },
+                {
+                    "t": "肉食",
+                    "dt": 10,
+                    "sql": "where  title like '%肉%' or title like '%骨%'"
+                },
+                {
+                    "t": "汤",
+                    "dt": 10,
+                    "sql": "where  title like '%汤%'"
+                }
+            ]
+        },
+        {
+            "t": "每日三餐",
+            "im": 1,
+            "dt": 9,
+            "d": [
+                {
+                    "t": "早餐",
+                    "sql": "where  classname like '早餐'"
+                },
+                {
+                    "t": "午餐",
+                    "sql": "where  classname like '中餐'"
+                },
+                {
+                    "t": "下午茶",
+                    "sql": "where  classname like '下午茶'"
+                },
+                {
+                    "t": "晚餐",
+                    "sql": "where  classname like '晚餐'"
+                },
+                {
+                    "t": "夜宵",
+                    "sql": "where  classname like '夜宵'"
+                }
+            ],
+            "sft": 1
+        },
+        {
+            "t": "主食",
+            "im": 5,
+            "dt": 8,
+            "st": 0,
+            "d": [
+                {
+                    "t": "炒饭",
+                    "sql": "where  title like '%炒饭'"
+                },
+                {
+                    "t": "焖饭",
+                    "sql": "where  title like '%焖饭'"
+                },
+                {
+                    "t": "烩饭",
+                    "sql": "where  title like '%烩饭'"
+                },
+                {
+                    "t": "饭",
+                    "sql": "where  title like '%饭%'"
+                },
+                {
+                    "t": "方便面",
+                    "sql": "where  title like '%方便面'"
+                },
+                {
+                    "t": "焖面",
+                    "sql": "where  title like '%焖面'"
+                },
+                {
+                    "t": "拌面",
+                    "sql": "where  title like '%拌面'"
+                },
+                {
+                    "t": "面",
+                    "sql": "where  title like '%面%'"
+                },
+                {
+                    "t": "饼",
+                    "sql": "where  title like '%饼%'"
+                },
+                {
+                    "t": "包子",
+                    "sql": "where  title like '%包子%'"
+                },
+                {
+                    "t": "饺子",
+                    "sql": "where  title like '%饺子'"
+                },
+                {
+                    "t": "馄饨",
+                    "sql": "where  title like '%混沌'"
+                },
+                {
+                    "t": "粥",
+                    "sql": "where  title like '%粥'"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "t": "家常菜谱",
+            "ft": "菜谱大全",
+            "im": 0,
+            "dt": 12,
+            "st": 0,
+            "sft": 1,
+            "td": 13,
+            "d": [
+                {
+                    "t": "热菜",
+                    "d": "6",
+                    "sql": "where  classname like '热菜' and bclassname like '菜谱大全'"
+                },
+                {
+                    "t": "凉菜",
+                    "d": "5",
+                    "sql": "where  classname like '凉菜' and bclassname like '菜谱大全'"
+                },
+                {
+                    "t": "素菜",
+                    "d": "74",
+                    "sql": "where  classname like '素菜' and bclassname like '菜谱大全'"
+                },
+                {
+                    "t": "靓汤",
+                    "d": "388",
+                    "sql": "where  classname like '靓汤' and bclassname like '菜谱大全'"
+                },
+                {
+                    "t": "粥品",
+                    "d": "389",
+                    "sql": "where  classname like '粥品' and bclassname like '菜谱大全'"
+                },
+                {
+                    "t": "主食",
+                    "d": "390",
+                    "sql": "where  classname like '主食' and bclassname like '菜谱大全'"
+                },
+                {
+                    "t": "点心",
+                    "d": "272",
+                    "sql": "where  classname like '点心' and bclassname like '菜谱大全'"
+                },
+                {
+                    "t": "卤味",
+                    "d": "273",
+                    "sql": "where  classname like '卤味' and bclassname like '菜谱大全'"
+                },
+                {
+                    "t": "微波炉",
+                    "d": "11",
+                    "sql": "where  classname like '微波炉' and bclassname like '菜谱大全'"
+                },
+                {
+                    "t": "海鲜",
+                    "d": "75",
+                    "sql": "where  classname like '海鲜' and bclassname like '菜谱大全'"
+                },
+                {
+                    "t": "火锅",
+                    "d": "59",
+                    "sql": "where  classname like '火锅' and bclassname like '菜谱大全'"
+                },
+                {
+                    "t": "酱料蘸料",
+                    "d": "343",
+                    "sql": "where  classname like '酱料蘸料' and bclassname like '菜谱大全'"
+                },
+                {
+                    "t": "干果零食",
+                    "d": "77",
+                    "sql": "where  classname like '干果零食' and bclassname like '菜谱大全'"
+                },
+                {
+                    "t": "饮品",
+                    "d": "57",
+                    "sql": "where  classname like '饮品' and bclassname like '菜谱大全'"
+                },
+                {
+                    "t": "孕妇",
+                    "d": "62",
+                    "sql": "where  classname like '孕妇' and bclassname like '菜谱大全'"
+                },
+                {
+                    "t": "产妇",
+                    "d": "72",
+                    "sql": "where  classname like '产妇' and bclassname like '菜谱大全'"
+                },
+                {
+                    "t": "宝宝",
+                    "d": "12",
+                    "sql": "where  classname like '宝宝' and bclassname like '菜谱大全'"
+                },
+                {
+                    "t": "老人",
+                    "d": "73",
+                    "sql": "where  classname like '老人' and bclassname like '菜谱大全'"
+                },
+                {
+                    "t": "美容",
+                    "d": "58",
+                    "sql": "where  classname like '美容' and bclassname like '菜谱大全'"
+                },
+                {
+                    "t": "瘦身",
+                    "d": "61",
+                    "sql": "where  classname like '瘦身' and bclassname like '菜谱大全'"
+                }
+            ]
+        },
+        {
+            "t": "中华菜系",
+            "im": 9,
+            "ft": "中华菜系",
+            "dt": 12,
+            "st": 0,
+            "sft": 1,
+            "td": 2,
+            "d": [
+                {
+                    "t": "川菜",
+                    "d": "41",
+                    "sql": "where  classname like '川菜'"
+                },
+                {
+                    "t": "鲁菜",
+                    "d": "42",
+                    "sql": "where  classname like '鲁菜'"
+                },
+                {
+                    "t": "粤菜",
+                    "d": "43",
+                    "sql": "where  classname like '粤菜'"
+                },
+                {
+                    "t": "湘菜",
+                    "d": "44",
+                    "sql": "where  classname like '湘菜'"
+                },
+                {
+                    "t": "闽菜",
+                    "d": "45",
+                    "sql": "where  classname like '闽菜'"
+                },
+                {
+                    "t": "浙菜",
+                    "d": "46",
+                    "sql": "where  classname like '浙菜'"
+                },
+                {
+                    "t": "苏菜",
+                    "d": "47",
+                    "sql": "where  classname like '苏菜'"
+                },
+                {
+                    "t": "徽菜",
+                    "d": "48",
+                    "sql": "where  classname like '徽菜'"
+                },
+                {
+                    "t": "京菜",
+                    "d": "49",
+                    "sql": "where  classname like '京菜'"
+                },
+                {
+                    "t": "沪菜",
+                    "d": "50",
+                    "sql": "where  classname like '沪菜'"
+                },
+                {
+                    "t": "豫菜",
+                    "d": "51",
+                    "sql": "where  classname like '豫菜'"
+                },
+                {
+                    "t": "湖北菜",
+                    "d": "52",
+                    "sql": "where  classname like '湖北菜'"
+                },
+                {
+                    "t": "东北菜",
+                    "d": "53",
+                    "sql": "where  classname like '东北菜'"
+                },
+                {
+                    "t": "西北菜",
+                    "d": "54",
+                    "sql": "where  classname like '西北菜'"
+                },
+                {
+                    "t": "云贵菜",
+                    "d": "55",
+                    "sql": "where  classname like '云贵菜'"
+                },
+                {
+                    "t": "清真菜",
+                    "d": "56",
+                    "sql": "where  classname like '清真菜'"
+                },
+                {
+                    "t": "山西菜",
+                    "d": "268",
+                    "sql": "where  classname like '山西菜'"
+                },
+                {
+                    "t": "江西菜",
+                    "d": "269",
+                    "sql": "where  classname like '江西菜'"
+                },
+                {
+                    "t": "港台菜",
+                    "d": "154",
+                    "sql": "where  classname like '港台菜'"
+                },
+                {
+                    "t": "其它菜",
+                    "d": "155",
+                    "sql": "where  classname like '其它菜'"
+                }
+            ]
+        },
+        {
+            "t": "各地小吃",
+            "im": 10,
+            "ft": "中华小吃",
+            "dt": 12,
+            "st": 0,
+            "sft": 1,
+            "td": 3,
+            "d": [
+                {
+                    "t": "北京小吃",
+                    "d": "78",
+                    "sql": "where  classname like '北京小吃'"
+                },
+                {
+                    "t": "天津小吃",
+                    "d": "79",
+                    "sql": "where  classname like '天津小吃'"
+                },
+                {
+                    "t": "河北小吃",
+                    "d": "80",
+                    "sql": "where  classname like '河北小吃'"
+                },
+                {
+                    "t": "山西小吃",
+                    "d": "81",
+                    "sql": "where  classname like '山西小吃'"
+                },
+                {
+                    "t": "蒙古小吃",
+                    "d": "82",
+                    "sql": "where  classname like '蒙古小吃'"
+                },
+                {
+                    "t": "上海小吃",
+                    "d": "83",
+                    "sql": "where  classname like '上海小吃'"
+                },
+                {
+                    "t": "山东小吃",
+                    "d": "84",
+                    "sql": "where  classname like '山东小吃'"
+                },
+                {
+                    "t": "江苏小吃",
+                    "d": "85",
+                    "sql": "where  classname like '江苏小吃'"
+                },
+                {
+                    "t": "浙江小吃",
+                    "d": "86",
+                    "sql": "where  classname like '浙江小吃'"
+                },
+                {
+                    "t": "安徽小吃",
+                    "d": "87",
+                    "sql": "where  classname like '安徽小吃'"
+                },
+                {
+                    "t": "吉林小吃",
+                    "d": "89",
+                    "sql": "where  classname like '吉林小吃'"
+                },
+                {
+                    "t": "辽宁小吃",
+                    "d": "90",
+                    "sql": "where  classname like '辽宁小吃'"
+                },
+                {
+                    "t": "陕西小吃",
+                    "d": "91",
+                    "sql": "where  classname like '陕西小吃'"
+                },
+                {
+                    "t": "新疆小吃",
+                    "d": "92",
+                    "sql": "where  classname like '新疆小吃'"
+                },
+                {
+                    "t": "宁夏小吃",
+                    "d": "93",
+                    "sql": "where  classname like '宁夏小吃'"
+                },
+                {
+                    "t": "甘肃小吃",
+                    "d": "94",
+                    "sql": "where  classname like '甘肃小吃'"
+                },
+                {
+                    "t": "青海小吃",
+                    "d": "95",
+                    "sql": "where  classname like '青海小吃'"
+                },
+                {
+                    "t": "湖北小吃",
+                    "d": "96",
+                    "sql": "where  classname like '湖北小吃'"
+                },
+                {
+                    "t": "湖南小吃",
+                    "d": "97",
+                    "sql": "where  classname like '湖南小吃'"
+                },
+                {
+                    "t": "河南小吃",
+                    "d": "98",
+                    "sql": "where  classname like '河南小吃'"
+                },
+                {
+                    "t": "江西小吃",
+                    "d": "99",
+                    "sql": "where  classname like '江西小吃'"
+                },
+                {
+                    "t": "重庆小吃",
+                    "d": "100",
+                    "sql": "where  classname like '重庆小吃'"
+                },
+                {
+                    "t": "四川小吃",
+                    "d": "101",
+                    "sql": "where  classname like '四川小吃'"
+                },
+                {
+                    "t": "云南小吃",
+                    "d": "102",
+                    "sql": "where  classname like '云南小吃'"
+                },
+                {
+                    "t": "贵州小吃",
+                    "d": "103",
+                    "sql": "where  classname like '贵州小吃'"
+                },
+                {
+                    "t": "西藏小吃",
+                    "d": "104",
+                    "sql": "where  classname like '西藏小吃'"
+                },
+                {
+                    "t": "广东小吃",
+                    "d": "105",
+                    "sql": "where  classname like '广东小吃'"
+                },
+                {
+                    "t": "福建小吃",
+                    "d": "106",
+                    "sql": "where  classname like '福建小吃'"
+                },
+                {
+                    "t": "广西小吃",
+                    "d": "107",
+                    "sql": "where  classname like '广西小吃'"
+                },
+                {
+                    "t": "海南小吃",
+                    "d": "108",
+                    "sql": "where  classname like '海南小吃'"
+                },
+                {
+                    "t": "香港小吃",
+                    "d": "109",
+                    "sql": "where  classname like '香港小吃'"
+                },
+                {
+                    "t": "台湾小吃",
+                    "d": "110",
+                    "sql": "where  classname like '台湾小吃'"
+                },
+                {
+                    "t": "成都小吃",
+                    "d": "344",
+                    "sql": "where  classname like '成都小吃'"
+                },
+                {
+                    "t": "黑龙江小吃",
+                    "d": "88",
+                    "sql": "where  classname like '黑龙江小吃'"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "t": "外国菜谱",
+            "im": 11,
+            "ft": "外国菜谱",
+            "dt": 12,
+            "st": 0,
+            "sft": 1,
+            "td": 10,
+            "d": [
+                {
+                    "t": "日本料理",
+                    "d": "63",
+                    "sql": "where  classname like '日本料理' and bclassname like '外国菜谱'"
+                },
+                {
+                    "t": "韩国料理",
+                    "d": "64",
+                    "sql": "where  classname like '韩国料理' and bclassname like '外国菜谱'"
+                },
+                {
+                    "t": "美国家常菜",
+                    "d": "65",
+                    "sql": "where  classname like '美国家常菜' and bclassname like '外国菜谱'"
+                },
+                {
+                    "t": "意大利餐",
+                    "d": "66",
+                    "sql": "where  classname like '意大利餐' and bclassname like '外国菜谱'"
+                },
+                {
+                    "t": "法国菜",
+                    "d": "67",
+                    "sql": "where  classname like '法国菜' and bclassname like '外国菜谱'"
+                },
+                {
+                    "t": "墨西哥菜",
+                    "d": "68",
+                    "sql": "where  classname like '墨西哥菜' and bclassname like '外国菜谱'"
+                },
+                {
+                    "t": "东南亚菜",
+                    "d": "69",
+                    "sql": "where  classname like '东南亚菜' and bclassname like '外国菜谱'"
+                },
+                {
+                    "t": "澳大利亚菜",
+                    "d": "70",
+                    "sql": "where  classname like '澳大利亚菜' and bclassname like '外国菜谱'"
+                },
+                {
+                    "t": "西餐面点",
+                    "d": "156",
+                    "sql": "where  classname like '西餐面点' and bclassname like '外国菜谱'"
+                },
+                {
+                    "t": "餐前小吃",
+                    "d": "378",
+                    "sql": "where  classname like '餐前小吃' and bclassname like '外国菜谱'"
+                },
+                {
+                    "t": "汤品",
+                    "d": "379",
+                    "sql": "where  classname like '汤品' and bclassname like '外国菜谱'"
+                },
+                {
+                    "t": "主菜",
+                    "d": "380",
+                    "sql": "where  classname like '主菜' and bclassname like '外国菜谱'"
+                },
+                {
+                    "t": "主食",
+                    "d": "381",
+                    "sql": "where  classname like '主食' and bclassname like '外国菜谱'"
+                },
+                {
+                    "t": "甜点",
+                    "d": "382",
+                    "sql": "where  classname like '甜点' and bclassname like '外国菜谱'"
+                },
+                {
+                    "t": "饮品",
+                    "d": "383",
+                    "sql": "where  classname like '饮品' and bclassname like '外国菜谱'"
+                },
+                {
+                    "t": "其他国家",
+                    "d": "71",
+                    "sql": "where  classname like '其他国家' and bclassname like '外国菜谱'"
+                }
+            ]
+        },
+        {
+            "t": "烘焙",
+            "im": 3,
+            "ft": "烘焙",
+            "dt": 12,
+            "st": 0,
+            "sft": 1,
+            "td": 369,
+            "d": [
+                {
+                    "t": "蛋糕面包",
+                    "d": "373",
+                    "sql": "where  classname like '蛋糕面包'"
+                },
+                {
+                    "t": "饼干配方",
+                    "d": "374",
+                    "sql": "where  classname like '饼干配方'"
+                },
+                {
+                    "t": "甜品点心",
+                    "d": "375",
+                    "sql": "where  classname like '甜品点心'"
+                },
+                {
+                    "t": "烘焙工具",
+                    "d": "371",
+                    "sql": "where  classname like '烘焙工具'"
+                },
+                {
+                    "t": "烘焙常识",
+                    "d": "370",
+                    "sql": "where  classname like '烘焙常识'"
+                },
+                {
+                    "t": "烘焙原料",
+                    "d": "372",
+                    "sql": "where  classname like '烘焙原料'"
+                }
+            ]
+        },
+        {
+            "t": "食材",
+            "dt": 2,
+            "im": 4,
+            "d": [
+                {
+                    "t": "畜类",
+                    "dt": 2,
+                    "st": 1,
+                    "d": [
+                        {
+                            "t": "猪",
+                            "d": [
+                                "猪小排",
+                                "猪肉",
+                                "猪蹄",
+                                "香肠",
+                                "五花肉",
+                                "腊肉(培根)",
+                                "猪肝",
+                                "火腿",
+                                "猪肚",
+                                "猪血",
+                                "猪腰",
+                                "猪皮"
+                            ]
+                        },
+                        {
+                            "t": "牛",
+                            "d": [
+                                "牛肉",
+                                "牛排",
+                                "肥牛",
+                                "牛肚",
+                                "牛尾",
+                                "牛柳",
+                                "牛筋",
+                                "牛骨",
+                                "牛蹄筋",
+                                "牛仔骨"
+                            ]
+                        },
+                        {
+                            "t": "羊",
+                            "d": [
+                                "羊肉",
+                                "羊排",
+                                "羊腿",
+                                "羊蝎子",
+                                "羊肝",
+                                "羊肚"
+                            ]
+                        },
+                        {
+                            "t": "其他畜类",
+                            "d": [
+                                "牛蛙",
+                                "兔肉"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "t": "禽类",
+                    "dt": 2,
+                    "st": 1,
+                    "d": [
+                        {
+                            "t": "鸡",
+                            "d": [
+                                "鸡翅",
+                                "鸡腿",
+                                "鸡肉",
+                                "鸡爪",
+                                "鸡胗",
+                                "鸡翅根",
+                                "鸡心",
+                                "鸡肝",
+                                "鸡脖",
+                                "童子鸡",
+                                "乌骨鸡",
+                                "三黄鸡",
+                                "柴鸡"
+                            ]
+                        },
+                        {
+                            "t": "鸭",
+                            "d": [
+                                "鸭肉",
+                                "鸭腿",
+                                "鸭血",
+                                "鸭胗",
+                                "鸭翅",
+                                "鸭舌",
+                                "鸭掌",
+                                "鸭头",
+                                "鸭肠",
+                                "鸭肝"
+                            ]
+                        },
+                        {
+                            "t": "鹅",
+                            "d": [
+                                "鹅肉",
+                                "鹅肝",
+                                "鹅蛋"
+                            ]
+                        },
+                        {
+                            "t": "其他禽类",
+                            "d": [
+                                "鹌鹑",
+                                "鸽子",
+                                "火鸡"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "t": "水产",
+                    "dt": 2,
+                    "st": 1,
+                    "d": [
+                        {
+                            "t": "鱼",
+                            "d": [
+                                "带鱼",
+                                "鲫鱼",
+                                "鲤鱼",
+                                "鱼头",
+                                "鳕鱼",
+                                "三文鱼",
+                                "草鱼",
+                                "鲈鱼",
+                                "黄花鱼",
+                                "鲅鱼",
+                                "鲳鱼",
+                                "鲢鱼",
+                                "银鱼",
+                                "武昌鱼",
+                                "青鱼",
+                                "鳝鱼",
+                                "罗非鱼",
+                                "龙利鱼"
+                            ]
+                        },
+                        {
+                            "t": "虾",
+                            "d": [
+                                "虾",
+                                "对虾",
+                                "明虾",
+                                "河虾",
+                                "海虾",
+                                "基围虾",
+                                "皮皮虾",
+                                "龙虾",
+                                "北极虾",
+                                "虾仁",
+                                "虾皮",
+                                "海米"
+                            ]
+                        },
+                        {
+                            "t": "蟹",
+                            "d": [
+                                "螃蟹",
+                                "河蟹",
+                                "海蟹",
+                                "青蟹",
+                                "梭子蟹",
+                                "大闸蟹"
+                            ]
+                        },
+                        {
+                            "t": "贝",
+                            "d": [
+                                "鲍鱼",
+                                "蛤蜊",
+                                "文蛤",
+                                "蛏子",
+                                "海螺",
+                                "田螺",
+                                "干贝",
+                                "鲜贝",
+                                "扇贝",
+                                "贻贝(鲜)",
+                                "青口",
+                                "河蚌",
+                                "北极贝",
+                                "牡蛎",
+                                "花螺"
+                            ]
+                        },
+                        {
+                            "t": "其他水产",
+                            "d": [
+                                "海参",
+                                "鱿鱼",
+                                "墨鱼",
+                                "田鸡",
+                                "甲鱼",
+                                "海胆",
+                                "海蜇皮",
+                                "海带"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "t": "蔬菜",
+                    "dt": 2,
+                    "st": 1,
+                    "d": [
+                        {
+                            "t": "茎、叶、花菜类",
+                            "d": [
+                                "白菜",
+                                "芹菜",
+                                "菠菜",
+                                "菜花",
+                                "西兰花",
+                                "酸白菜",
+                                "小白菜",
+                                "卷心菜",
+                                "莴笋",
+                                "娃娃菜",
+                                "油菜",
+                                "百合",
+                                "芥菜",
+                                "西芹",
+                                "冬笋",
+                                "茼蒿",
+                                "竹笋",
+                                "紫甘蓝",
+                                "油菜",
+                                "梅菜",
+                                "芦笋",
+                                "荠菜",
+                                "茴香",
+                                "梅干菜",
+                                "芹菜叶",
+                                "苦菊",
+                                "芦荟",
+                                "芥兰",
+                                "春笋",
+                                "空心菜",
+                                "橄榄菜",
+                                "木耳菜",
+                                "豌豆尖",
+                                "油麦菜",
+                                "萝卜苗",
+                                "圆生菜",
+                                "芥蓝",
+                                "香芹",
+                                "苋菜"
+                            ]
+                        },
+                        {
+                            "t": "茄果、瓜菜类",
+                            "d": [
+                                "茄子",
+                                "南瓜",
+                                "西红柿",
+                                "黄瓜",
+                                "冬瓜",
+                                "柿子椒",
+                                "彩椒",
+                                "西葫芦",
+                                "苦瓜",
+                                "丝瓜",
+                                "尖椒",
+                                "红椒"
+                            ]
+                        },
+                        {
+                            "t": "薯芋淀粉类",
+                            "d": [
+                                "土豆",
+                                "山药",
+                                "芋头",
+                                "紫薯",
+                                "红薯",
+                                "西米露",
+                                "魔芋"
+                            ]
+                        },
+                        {
+                            "t": "鲜豆类",
+                            "d": [
+                                "豆角",
+                                "四季豆",
+                                "荷兰豆",
+                                "绿豆芽",
+                                "黄豆芽",
+                                "毛豆",
+                                "扁豆",
+                                "豌豆苗",
+                                "豇豆",
+                                "刀豆",
+                                "芸豆",
+                                "豆荚"
+                            ]
+                        },
+                        {
+                            "t": "葱蒜类",
+                            "d": [
+                                "洋葱",
+                                "韭菜",
+                                "蒜苔",
+                                "韭黄",
+                                "大葱",
+                                "蒜"
+                            ]
+                        },
+                        {
+                            "t": "水生蔬菜",
+                            "d": [
+                                "荸荠",
+                                "藕",
+                                "茭白"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "t": "菌藻类",
+                    "dt": 2,
+                    "st": 1,
+                    "d": [
+                        {
+                            "t": "菌类",
+                            "d": [
+                                "香菇",
+                                "金针菇",
+                                "杏鲍菇",
+                                "平菇",
+                                "草菇",
+                                "口蘑",
+                                "茶树菇",
+                                "木耳",
+                                "银耳",
+                                "猴头菇",
+                                "白蘑菇(鲜)",
+                                "蟹味菇"
+                            ]
+                        },
+                        {
+                            "t": "藻类",
+                            "d": [
+                                "海带",
+                                "海藻",
+                                "紫菜",
+                                "海肠",
+                                "苔菜",
+                                "裙带菜"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "t": "豆类",
+                    "dt": 2,
+                    "st": 1,
+                    "d": [
+                        {
+                            "t": "豆类",
+                            "d": [
+                                "红豆",
+                                "绿豆",
+                                "黄豆",
+                                "黑豆",
+                                "蚕豆",
+                                "青豆",
+                                "红芸豆",
+                                "白芸豆",
+                                "豌豆"
+                            ]
+                        },
+                        {
+                            "t": "豆制品类",
+                            "d": [
+                                "豆腐",
+                                "腐竹",
+                                "豆腐干",
+                                "千张",
+                                "豆腐皮",
+                                "豆豉",
+                                "豆浆",
+                                "油豆腐",
+                                "冻豆腐",
+                                "豆渣",
+                                "素鸡",
+                                "红豆沙",
+                                "豆腐丝",
+                                "烤麸",
+                                "北豆腐",
+                                "豆腐渣",
+                                "豆腐卷",
+                                "鸡蛋豆腐",
+                                "内酯豆腐",
+                                "南豆腐"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "t": "五谷",
+                    "dt": 2,
+                    "st": 0,
+                    "d": [
+                        {
+                            "t": "五谷",
+                            "d": [
+                                "糯米",
+                                "大米",
+                                "小米",
+                                "黑米",
+                                "红米",
+                                "紫米",
+                                "面粉",
+                                "低筋面粉",
+                                "高筋面粉",
+                                "芝麻",
+                                "薏米",
+                                "荞麦"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "t": "水果",
+                    "dt": 2,
+                    "st": 0,
+                    "d": [
+                        {
+                            "t": "水果",
+                            "d": [
+                                "樱桃",
+                                "芦柑",
+                                "菠萝",
+                                "荔枝",
+                                "椰子",
+                                "枇杷",
+                                "香瓜",
+                                "哈密瓜",
+                                "油桃",
+                                "苹果",
+                                "香蕉",
+                                "栆",
+                                "木瓜",
+                                "葡萄",
+                                "柠檬",
+                                "山楂",
+                                "草莓",
+                                "芒果",
+                                "梨",
+                                "桂圆",
+                                "蓝莓",
+                                "橙",
+                                "葡萄干",
+                                "柚子",
+                                "西瓜",
+                                "椰汁",
+                                "榴莲",
+                                "柿子",
+                                "猕猴桃",
+                                "火龙果",
+                                "橘子",
+                                "桃",
+                                "百香果",
+                                "金桔",
+                                "牛油果",
+                                "桑葚"
+                            ]
+                        }
+
+                    ]
+                }
+            ]
+        }  
+    ],
+    [
+        {
+            "t": "工艺",
+            "im": 15,
+            "dt": 6,
+            "st": 0,
+            "d": [
+                {
+                    "t": "炒",
+                    "d": 192,
+                    "h": "1",
+                    "sql": "where  gongyi like '炒'"
+                },
+                {
+                    "t": "蒸",
+                    "d": 156,
+                    "h": "1",
+                    "sql": "where  gongyi like '蒸'"
+                },
+                {
+                    "t": "煮",
+                    "d": 194,
+                    "h": "1",
+                    "sql": "where  gongyi like '煮'"
+                },
+                {
+                    "t": "炖",
+                    "d": 124,
+                    "h": "1",
+                    "sql": "where  gongyi like '炖'"
+                },
+                {
+                    "t": "拌",
+                    "d": 141,
+                    "h": "1",
+                    "sql": "where  gongyi like '拌'"
+                },
+                {
+                    "t": "烧",
+                    "d": 149,
+                    "h": "1",
+                    "sql": "where  gongyi like '烧'"
+                },
+                {
+                    "t": "煎",
+                    "d": 129,
+                    "h": "0",
+                    "sql": "where  gongyi like '煎'"
+                },
+                {
+                    "t": "炸",
+                    "d": 153,
+                    "h": "0",
+                    "sql": "where  gongyi like '炸'"
+                },
+                {
+                    "t": "烘焙",
+                    "d": 220,
+                    "h": "1",
+                    "sql": "where  gongyi like '烘焙'"
+                },
+                {
+                    "t": "微波",
+                    "d": 251,
+                    "h": "0",
+                    "sql": "where  gongyi like '微波'"
+                },
+                {
+                    "t": "烤",
+                    "d": 130,
+                    "h": "1",
+                    "sql": "where  gongyi like '烤'"
+                },
+                {
+                    "t": "煲",
+                    "d": 147,
+                    "h": "0",
+                    "sql": "where  gongyi like '煲'"
+                },
+                {
+                    "t": "焖",
+                    "d": 144,
+                    "h": "0",
+                    "sql": "where  gongyi like '焖'"
+                },
+                {
+                    "t": "冻",
+                    "d": 136,
+                    "h": "0",
+                    "sql": "where  gongyi like '冻'"
+                },
+                {
+                    "t": "烙",
+                    "d": 252,
+                    "h": "0",
+                    "sql": "where  gongyi like '烙'"
+                },
+                {
+                    "t": "砂锅",
+                    "d": 148,
+                    "h": "0",
+                    "sql": "where  gongyi like '砂锅'"
+                },
+                {
+                    "t": "腌",
+                    "d": 134,
+                    "h": "0",
+                    "sql": "where  gongyi like '腌'"
+                },
+                {
+                    "t": "卤",
+                    "d": 138,
+                    "h": "0",
+                    "sql": "where  gongyi like '卤'"
+                },
+                {
+                    "t": "酱",
+                    "d": 132,
+                    "h": "0",
+                    "sql": "where  gongyi like '酱'"
+                },
+                {
+                    "t": "烩",
+                    "d": 127,
+                    "h": "0",
+                    "sql": "where  gongyi like '烩'"
+                },
+                {
+                    "t": "扒",
+                    "d": 112,
+                    "h": "0",
+                    "sql": "where  gongyi like '扒'"
+                },
+                {
+                    "t": "爆",
+                    "d": 114,
+                    "h": "0",
+                    "sql": "where  gongyi like '爆'"
+                },
+                {
+                    "t": "炝",
+                    "d": 140,
+                    "h": "0",
+                    "sql": "where  gongyi like '炝'"
+                },
+                {
+                    "t": "熘",
+                    "d": 142,
+                    "h": "0",
+                    "sql": "where  gongyi like '熘'"
+                },
+                {
+                    "t": "熏",
+                    "d": 139,
+                    "h": "0",
+                    "sql": "where  gongyi like '熏'"
+                },
+                {
+                    "t": "汆",
+                    "d": 123,
+                    "h": "0",
+                    "sql": "where  gongyi like '汆'"
+                },
+                {
+                    "t": "拔丝",
+                    "d": 113,
+                    "h": "0",
+                    "sql": "where  gongyi like '拔丝'"
+                },
+                {
+                    "t": "榨汁",
+                    "d": 253,
+                    "h": "0",
+                    "sql": "where  gongyi like '榨汁'"
+                },
+                {
+                    "t": "灼",
+                    "d": 193,
+                    "h": "0",
+                    "sql": "where  gongyi like '灼'"
+                },
+                {
+                    "t": "泡",
+                    "d": 256,
+                    "h": "0",
+                    "sql": "where  gongyi like '泡'"
+                },
+                {
+                    "t": "腊",
+                    "d": 133,
+                    "h": "0",
+                    "sql": "where  gongyi like '腊'"
+                },
+                {
+                    "t": "糖蘸",
+                    "d": 119,
+                    "h": "0",
+                    "sql": "where  gongyi like '糖蘸'"
+                },
+                {
+                    "t": "干锅",
+                    "d": 255,
+                    "h": "0",
+                    "sql": "where  gongyi like '干锅'"
+                },
+                {
+                    "t": "焗",
+                    "d": 262,
+                    "h": "0",
+                    "sql": "where  gongyi like '焗'"
+                },
+                {
+                    "t": "干煸",
+                    "d": 260,
+                    "h": "0",
+                    "sql": "where  gongyi like '干煸'"
+                },
+                {
+                    "t": "煨",
+                    "d": 261,
+                    "h": "0",
+                    "sql": "where  gongyi like '煨'"
+                },
+                {
+                    "t": "其他",
+                    "d": 259,
+                    "h": "0",
+                    "sql": "where  gongyi like '其他'"
+                }
+            ]
+        },
+        {
+            "t": "时间",
+            "im": 16,
+            "dt": 4,
+            "st": 0,
+            "d": [
+                {
+                    "t": "<5分钟",
+                    "d": 1,
+                    "sql": "where  make_time like '<5分钟'"
+                },
+                {
+                    "t": "<10分钟",
+                    "d": 2,
+                    "sql": "where  make_time like '<10分钟'"
+                },
+                {
+                    "t": "<15分钟",
+                    "d": 3,
+                    "sql": "where  make_time like '<15分钟'"
+                },
+                {
+                    "t": "<30分钟",
+                    "d": 4,
+                    "sql": "where  make_time like '<30分钟'"
+                },
+                {
+                    "t": "<60分钟",
+                    "d": 5,
+                    "sql": "where  make_time like '<60分钟'"
+                },
+                {
+                    "t": "<90分钟",
+                    "d": 6,
+                    "sql": "where  make_time like '<90分钟'"
+                },
+                {
+                    "t": "<2小时",
+                    "d": 7,
+                    "sql": "where  make_time like '<2小时'"
+                },
+                {
+                    "t": "2小时以上",
+                    "d": 8,
+                    "sql": "where  make_time like '2小时以上'"
+                }
+            ]
+        },
+        {
+            "t": "口味",
+            "im": 8,
+            "dt": 7,
+            "st": 0,
+            "d": [
+                {
+                    "t": "家常味",
+                    "d": 168,
+                    "h": "1",
+                    "sql": "where  make_time like '家常味'"
+                },
+                {
+                    "t": "香辣味",
+                    "d": 187,
+                    "h": "1",
+                    "sql": "where  make_time like '香辣味'"
+                },
+                {
+                    "t": "咸鲜味",
+                    "d": 160,
+                    "h": "1",
+                    "sql": "where  make_time like '咸鲜味'"
+                },
+                {
+                    "t": "甜味",
+                    "d": 185,
+                    "h": "1",
+                    "sql": "where  make_time like '甜味'"
+                },
+                {
+                    "t": "酸甜味",
+                    "d": 182,
+                    "h": "1",
+                    "sql": "where  make_time like '酸甜味'"
+                },
+                {
+                    "t": "酸辣味",
+                    "d": 180,
+                    "h": "1",
+                    "sql": "where  make_time like '酸辣味'"
+                },
+                {
+                    "t": "麻辣味",
+                    "d": 177,
+                    "h": "1",
+                    "sql": "where  make_time like '麻辣味'"
+                },
+                {
+                    "t": "酱香味",
+                    "d": 170,
+                    "h": "1",
+                    "sql": "where  make_time like '酱香味'"
+                },
+                {
+                    "t": "奶香味",
+                    "d": 257,
+                    "h": "1",
+                    "sql": "where  make_time like '奶香味'"
+                },
+                {
+                    "t": "蒜香味",
+                    "d": 183,
+                    "h": "0",
+                    "sql": "where  make_time like '蒜香味'"
+                },
+                {
+                    "t": "鱼香味",
+                    "d": 188,
+                    "h": "0",
+                    "sql": "where  make_time like '鱼香味'"
+                },
+                {
+                    "t": "葱香味",
+                    "d": 162,
+                    "h": "0",
+                    "sql": "where  make_time like '葱香味'"
+                },
+                {
+                    "t": "果味",
+                    "d": 166,
+                    "h": "0",
+                    "sql": "where  make_time like '果味'"
+                },
+                {
+                    "t": "五香味",
+                    "d": 186,
+                    "h": "0",
+                    "sql": "where  make_time like '五香味'"
+                },
+                {
+                    "t": "咖喱味",
+                    "d": 173,
+                    "h": "0",
+                    "sql": "where  make_time like '咖喱味'"
+                },
+                {
+                    "t": "椒麻味",
+                    "d": 171,
+                    "h": "0",
+                    "sql": "where  make_time like '椒麻味'"
+                },
+                {
+                    "t": "茄汁味",
+                    "d": 179,
+                    "h": "0",
+                    "sql": "where  make_time like '茄汁味'"
+                },
+                {
+                    "t": "酸味",
+                    "d": 266,
+                    "h": "0",
+                    "sql": "where  make_time like '酸味'"
+                },
+                {
+                    "t": "苦香味",
+                    "d": 174,
+                    "h": "0",
+                    "sql": "where  make_time like '苦香味'"
+                },
+                {
+                    "t": "姜汁味",
+                    "d": 169,
+                    "h": "0",
+                    "sql": "where  make_time like '姜汁味'"
+                },
+                {
+                    "t": "怪味",
+                    "d": 165,
+                    "h": "0",
+                    "sql": "where  make_time like '怪味'"
+                },
+                {
+                    "t": "芥末味",
+                    "d": 172,
+                    "h": "0",
+                    "sql": "where  make_time like '芥末味'"
+                },
+                {
+                    "t": "红油味",
+                    "d": 167,
+                    "h": "0",
+                    "sql": "where  make_time like '红油味'"
+                },
+                {
+                    "t": "豆瓣味",
+                    "d": 164,
+                    "h": "0",
+                    "sql": "where  make_time like '豆瓣味'"
+                },
+                {
+                    "t": "麻酱味",
+                    "d": 176,
+                    "h": "0",
+                    "sql": "where  make_time like '麻酱味'"
+                },
+                {
+                    "t": "黑椒味",
+                    "d": 264,
+                    "h": "0",
+                    "sql": "where  make_time like '黑椒味'"
+                },
+                {
+                    "t": "糊辣味",
+                    "d": 265,
+                    "h": "0",
+                    "sql": "where  make_time like '糊辣味'"
+                },
+                {
+                    "t": "其他",
+                    "d": 189,
+                    "h": "0",
+                    "sql": "where  make_time like '其他'"
+                }
+            ]
+        }
+    ]
+]
